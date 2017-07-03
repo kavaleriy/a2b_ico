@@ -1,3 +1,13 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
+
+  before_action :authenticate_user!, except: [:home]
+
+
+  def home
+  end
+
+  def profile
+  end
+
 end
