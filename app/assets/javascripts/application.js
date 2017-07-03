@@ -12,3 +12,15 @@
 //
 //= require turbolinks
 //= require_tree .
+
+document.addEventListener("turbolinks:load", function() {
+
+	// var app = new Vue({
+
+	// 	el: '#test',
+	// 	data: {
+	// 		text: 'the text'
+	// 	}
+	// })
+
+});
